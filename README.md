@@ -16,7 +16,7 @@ This repo provides training code for learning task-relevant keypoints for roboti
 * `analysis.py`: inference code given a model checkpoint path and input image directory
 * `train.py`: training code given an input data directory in the following format:
 ```
-data
+dataset_dir
 ├── test
 │   ├── images
 │   │   ├── 00000.jpg
